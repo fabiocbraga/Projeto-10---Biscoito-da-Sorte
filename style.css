@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;    
+}
+
+body{
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+}
+
+body, button{
+    font-family: "MD Sans", sans-serif;
+}
+
+button{
+    background-color: #7879F1;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+button:hover{
+    background-color: #6363ce;
+}
+.hide{
+    display: none;
+}
+
+.sorte{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 2rem;
+    gap: 10px;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+}
+
+main{
+    border-radius: .6rem;
+    background: #FFF;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.10);
+    padding: 4.8rem 6.4rem 6.4rem;
+    width: min(42.8rem, 90%);
+    
+    text-align: center;
+}
+
+/*screen 1*/
+h1{
+    font-family: "montserrat", sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+form{
+    margin-top: 4.8rem;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    padding: 1.6rem;
+    margin-bottom: 15px;
+}
+
+
+
+/* screen 2*/
+.screen2 button{
+    border-radius: .4rem;
+    margin-top: 10px;
+}
